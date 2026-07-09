@@ -1,4 +1,4 @@
-name: Build Saturnian Neptune Eris Radar APK
+name: Build Saturnian Neptune Eris Radar
 
 on:
   push:
@@ -37,5 +37,5 @@ jobs:
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Saturnian-Neptune-Eris-Radar-APK
+          name: Saturnian-Neptune-Eris-Radar
           path: build/apk/
